@@ -1,0 +1,9 @@
+language: c
+matrix:
+  include:
+    - os: linux
+    - os: linux
+      dist: trusty
+    - os: osx
+script:
+ - make
